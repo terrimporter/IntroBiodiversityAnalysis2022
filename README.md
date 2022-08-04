@@ -8,4 +8,13 @@ The examples shown in the powerpoint slides come from taxonomically assigned exa
 
 *Before running scripts, create a new R project directory and put scripts/ into it.  In the R project directory,  create a directory called infiles/ and put your results.csv file in it.  Also create a directory called outfiles/ to contain the output.*
 
+```bash
+├── R project directory
+│   ├── infiles
+│   │   ├── results.csv
+│   ├── outfiles
+│   ├── scripts
+
+```
+
 Last updated: August 4, 2022
