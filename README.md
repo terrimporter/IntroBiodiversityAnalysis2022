@@ -10,11 +10,10 @@ The examples shown in the powerpoint slides come from taxonomically assigned exa
 
 ```bash
 ├── R project directory
+│   ├── scripts
 │   ├── infiles
 │   │   ├── results.csv
 │   ├── outfiles
-│   ├── scripts
-
 ```
 
 Last updated: August 4, 2022
