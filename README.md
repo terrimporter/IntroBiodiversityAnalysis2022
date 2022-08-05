@@ -13,7 +13,7 @@ R project directory
 ├── scripts
 ├── infiles
 │   └──  results.csv
-└──  outfiles 
+└── outfiles 
 ```
 
 Last updated: August 4, 2022
