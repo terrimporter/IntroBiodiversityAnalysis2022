@@ -29,7 +29,7 @@ dev.off()
 m <- vegdist(t, method="bray", binary=TRUE)
 
 # Do 3 dimensional NMDS
-nmds3 <- metaMDS(m, k=3, trymax=100)
+nmds3 <- metaMDS(t or t2, k=3, trymax=100)
 # stress = 0.07397908
 
 # Goodness of fit ----
