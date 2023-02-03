@@ -21,7 +21,7 @@ tab.long <- gather(tab.t, sample, reads, -GlobalESV)
 tax <- read.csv("outfiles/taxonomy.csv", header=TRUE, row.names = 1, stringsAsFactors = FALSE)
 
 # map taxonomy on to ESV table, focus on family level diversity
-tab2 <- merge(tab.long, tax, by="GlobalESV", all=TRUE)
+tab2 <- merge(tab.long, tax, by="GlobalESV", all.x=TRUE)
 
 # if Phylum "" then "Unknown"
 tab2$Phylum <- ifelse(tab2$Phylum=="", "Unknown", tab2$Phylum)
